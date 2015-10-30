@@ -1,0 +1,4 @@
+SeparationWeight: 6.00001
+CohesionWeight: 3
+GroupAlignWeight: 7
+GroupVelocityWeight: 1.7

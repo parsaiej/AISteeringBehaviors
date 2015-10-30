@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameMessage.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMessageManager.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystem.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsBuffer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinematic.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicUnit.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Steering.cpp">
+      <Filter>Source Files\Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsBufferManager.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicUnitManager.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="AddKinematicUnitNearPlayerMessage.cpp">
+      <Filter>Source Files\Messaging\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinatesFollowMouseMessagecpp.cpp">
+      <Filter>Source Files\Messaging\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitGameMessage.cpp">
+      <Filter>Source Files\Messaging\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveToMessage.cpp">
+      <Filter>Source Files\Messaging\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveRandomKinematicUnitMessage.cpp">
+      <Filter>Source Files\Messaging\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicSeekSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicArriveSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicWanderSteering.cpp">
+      <Filter>Source Files\Steering\Kinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicArriveSteering.cpp">
+      <Filter>Source Files\Steering\Kinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicSeekSteering.cpp">
+      <Filter>Source Files\Steering\Kinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicAlignSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicPursueSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicFaceSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicWanderSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderAndSeekOrFlee.cpp">
+      <Filter>Source Files\Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicSeparationSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicGroupAlignSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicCohesionSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicFlockingSteering.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicVelocityMatch.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicGroupVelocityMatch.cpp">
+      <Filter>Source Files\Steering\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyFlockingWeightMessage.cpp">
+      <Filter>Source Files\Messaging\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleDebugMessage.cpp">
+      <Filter>Source Files\Messaging\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="AddKinemacticUnit.cpp">
+      <Filter>Source Files\Messaging\Messages</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsBuffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSystem.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicUnit.h">
+      <Filter>Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinematic.h">
+      <Filter>Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Steering.h">
+      <Filter>Header Files\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMessage.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMessageManager.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsBufferManager.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicUnitManager.h">
+      <Filter>Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveRandomKinematicUnitMessage.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveToMessage.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitGameMessage.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinatesFollowMouseMessage.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="AddKinematicUnitNearPlayerMessage.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicSeekSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArriveSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicArriveSteering.h">
+      <Filter>Header Files\Steering\Kinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicSeekSteering.h">
+      <Filter>Header Files\Steering\Kinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicWanderSteering.h">
+      <Filter>Header Files\Steering\Kinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicAlignSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicPursueSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicFaceSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicWanderSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderAndSeekOrFlee.h">
+      <Filter>Header Files\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicSeparationSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicGroupAlignSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicCohesionSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicFlockingSteering.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicVelocityMatch.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicGroupVelocityMatch.h">
+      <Filter>Header Files\Steering\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleDebugMessage.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyFlockingWeightMessage.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="AddKinematicUnit.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{58071a7d-cbb0-4abd-9790-6b2e658844e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{30ffa034-0511-4b02-96bb-ac319241f08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Units">
+      <UniqueIdentifier>{26445efa-7c39-4c21-90ae-870498e58f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Steering">
+      <UniqueIdentifier>{72ced478-f532-407f-b1dd-b86e7a70d554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Messaging">
+      <UniqueIdentifier>{10a6d440-6024-40e5-85be-fa43cefafc34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{f1f8b550-13c6-4421-8c34-2355daeda283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{d9580c2a-964f-46dd-87dd-a4da057d3768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Messaging">
+      <UniqueIdentifier>{db5bf32e-639d-4ac3-8ada-24db94aa84d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{23437882-c747-469d-ab3a-9f6b940a3517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Steering">
+      <UniqueIdentifier>{f05039fa-fecc-4595-b12b-a5ec331714d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units">
+      <UniqueIdentifier>{820b8d07-ae99-4b13-b15d-e6e6c1e3fbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Messaging\Messages">
+      <UniqueIdentifier>{73dd406b-44c8-4e11-aa50-14f0e2a6af2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Steering\Dynamic">
+      <UniqueIdentifier>{1e3d188d-b4c0-4efe-8cd8-f3bacc534e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Steering\Kinematic">
+      <UniqueIdentifier>{0210988f-8b7f-4210-90c6-6c58edc43f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Messaging\Messages">
+      <UniqueIdentifier>{b4120755-ebc7-4046-9792-579139765b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Steering\Dynamic">
+      <UniqueIdentifier>{03b94219-49a5-473c-8a72-853f2c0f30c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Steering\Kinematic">
+      <UniqueIdentifier>{c5128596-d280-4f4b-b641-c73dcc7111d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{a86be52d-b1f6-4f9f-a9e2-5f1081efbd57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
