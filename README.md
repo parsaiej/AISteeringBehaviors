@@ -1,7 +1,7 @@
 # AISteeringBehaviors
 
 ##Description
-The goal of this project was to present a suite of basic artificial intelligence steering behaviors, showing the power of "delegated" behaviors, and what can come of combining them.
+The goal of this project was to present a suite of basic artificial intelligence steering behaviors, showing the power of "delegated" behaviors, and what can come of combining them. I utilized a game engine written with the Allegro5 graphics library in C++ to do this. 
 
 The suite exhibits the following behaviors:
 * Seek
@@ -18,6 +18,8 @@ The suite exhibits the following behaviors:
 * Separation
 * Cohesion
 * Flocking
+
+**Implementations based off the works of Ian Millington's "Artificial Intelligence for Games"**
 
 ###Seek
 
