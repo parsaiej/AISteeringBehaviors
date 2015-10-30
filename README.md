@@ -1,7 +1,7 @@
 # AISteeringBehaviors
 
 ##Description
-The goal of this project was to present a suite of basic artificial intelligence steering behaviors, showing the power of "delegated" behaviors, and what can come of combining them. I utilized a game engine written with the Allegro5 graphics library in C++ to do this. 
+The goal of this project was to present a suite of basic artificial intelligence steering behaviors, showing the power of "delegated" behaviors, and what can come of combining them. I utilized a pre-existing game engine written with the Allegro5 graphics library in C++ to implement these steering behaviors. **Scroll down to see examples for each**. 
 
 The suite exhibits the following behaviors:
 * Seek
