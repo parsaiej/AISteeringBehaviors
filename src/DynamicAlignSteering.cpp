@@ -37,8 +37,6 @@ Steering* DynamicAlignSteering::getSteering()
 
 	mAngular = targetRotation - mpMover->getOrientation();
 
-	//All credit to Erika Anderson for figuring out this small fix needed for getting this
-	//Align behavior to work correctly.
 	if (((targetRotation > 0) && (mAngular < 0)) || ((targetRotation < 0) && (mAngular > 0)))
 	{
 		mAngular *= -1;
